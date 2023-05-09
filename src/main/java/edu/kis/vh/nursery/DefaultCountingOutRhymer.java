@@ -9,7 +9,7 @@ public class DefaultCountingOutRhymer {
 
 
 
-    private int[] numbers=new int[SIZE];
+    private final int[] numbers=new int[SIZE];
 
     public int total=EMPTY;
 
