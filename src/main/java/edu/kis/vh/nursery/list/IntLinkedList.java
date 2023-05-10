@@ -5,8 +5,8 @@ public class IntLinkedList {
     public static final Node EMPTY=null;
     public static final int ERROR=-1;
 
-    Node last;
-    int i;
+    private Node last;
+    private int i;
 
     public void push(int i) {
         if (last == EMPTY)
